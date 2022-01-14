@@ -27,6 +27,15 @@ ENDPOINT=********************************
 
 Configure a Host for the project and access it through your browser **http://your-host.com/index.php**
 
+- Example response:
+```javascript
+{
+    token: "1bab386f-45ea-49e1-9f0d-6afe49a5b250",
+    expire: 1580372696,
+    signature: "0f9d5a45e97c24fa9200a9d5543c9af1e2c45a54"
+}
+```
+
 ## Credits
 
 - [Omar Villafuerte](https://github.com/ovillafuerte94)
