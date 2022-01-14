@@ -1,0 +1,14 @@
+{
+    "name": "ovillafuerte94/imagekit-auth",
+    "description": "Authentication endpoint",
+    "require": {
+        "imagekit/imagekit": "^2.0",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "authors": [
+        {
+            "name": "Omar Villafuerte",
+            "email": "ovillafuerte.94@gmail.com"
+        }
+    ]
+}
