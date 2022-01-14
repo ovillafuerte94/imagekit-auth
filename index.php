@@ -19,4 +19,5 @@ $imageKit = new ImageKit(
 
 $authenticationParameters = $imageKit->getAuthenticationParameters();
 
-echo ("Auth params : " . json_encode($authenticationParameters));
+header('Content-Type: application/json; charset=utf-8');
+echo json_encode($authenticationParameters);
